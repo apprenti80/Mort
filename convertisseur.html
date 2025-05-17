@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="k.css">
+        <script>
+             function conversion(unite1, taux, unite2)
+                {
+                    var valeur = prompt(" entrez la valeur a convertir:")
+                    var resultat = valeur *taux;
+                    alert(valeur + '' + unite1 + '\n' + resultat + '' + unite2);
+                }
+
+        </script>
+</head>
+<body >
+    <button onclick="conversion('euros', 500, 'kmf')"> convertir euro en Kmf</button><br>
+    <button onclick="conversion('m', 100,'cm')">conversion métres &gt; centimetres</button>
+</body>
+</html>
